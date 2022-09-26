@@ -21,6 +21,11 @@ a {
     color: saddlebrown;
 }
 
+img {
+    width: 40em;
+    height: 20em;
+}
+
 p {
     color: #B0BEC5;
     line-height: 2;
