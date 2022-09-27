@@ -46,3 +46,16 @@ p {
 .projectContainer {
     color: #B0BEC5;
 }
+
+.detailsBorderContainer {
+    height: 1em;
+    margin: 4em;
+}
+
+.detailsBorder {
+    left: 10%;
+    right: 25%;
+    position: absolute;
+    width: 80%;
+    border-style: solid;
+}
