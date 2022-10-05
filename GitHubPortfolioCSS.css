@@ -1,69 +1,105 @@
 
 @media only screen and (min-width: 861px) {
-  .projectContainer {
-    margin: 0 2em 0 4em;
+    .projectContainer {
+      margin: 0 2em 0 4em;
+    }
+}
+
+@media only screen and (max-width: 1332px) {
+    .doubleImg {
+      flex-direction: column;
+    }
+    html {
+        width: fit-content;
+      }
   }
-}
-body {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-color: #263238;
-    letter-spacing: 1px;
-}
 
-h1 {
-    
-}
+  body {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      background-color: #263238;
+      letter-spacing: 1px;
+  }
+  
+  h1 {
+      
+  }
+  
+  h2 {
+      color: white;
+      margin: 2em 2em 1em 2em;
+  }
+  
+  h3 {
+      margin: 1em;
+  }
+  
+  a {
+      color: saddlebrown;
+  }
+  
+  img {
+      width: 40em;
+      height: 20em;
+      padding: 1em;
+  }
+  
+  p {
+      color: #B0BEC5;
+      line-height: 2;
+      margin: 2em 2em 1em 2em;
+  }
 
-h2 {
-    color: white;
-    margin: 2em 2em 1em 2em;
-}
+  button {
+    width: 9em;
+    height: 3em;
+    background-color: #ffffffbf;
+    border-radius: 10%;
+  }
+  
+  #pageTopBanner {
+      background-color: saddlebrown;
+      height: 2em;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+  }
+  
+  .projectContainer {
+      color: #B0BEC5;
+  }
 
-h3 {
-    margin: 2em;
-}
-
-a {
+  .underlinedSubtitle {
+    text-decoration: underline;
     color: saddlebrown;
-}
+  }
+  
+  .detailsBorderContainer {
+      height: 1em;
+      margin: 6em 10em 2em 10em;
+  }
+  
+  .detailsBorder {
+      border-style: solid;
+      border-color: #ffffffbf;
+  }
 
-img {
-    width: 40em;
-    height: 20em;
-}
+  .doubleImg {
+    display: inline-flex;
+  }
 
-p {
-    color: #B0BEC5;
-    line-height: 2;
-    margin: 2em 2em 1em 2em;
-}
+  .buttonsContainer {
+    display: inline-flex;
+  }
 
-#pageTopBanner {
-    background-color: saddlebrown;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
+  .buttonContainer {
+    padding: 0 15em 0 15em;
+  }
 
-.projectContainer {
-    color: #B0BEC5;
-}
-
-.detailsBorderContainer {
-    height: 1em;
-    margin: 4em;
-}
-
-.detailsBorder {
-    left: 10%;
-    right: 25%;
-    position: absolute;
-    width: 80%;
-    border-style: solid;
-}
+  .widthAuto {
+    width: auto;
+  }
