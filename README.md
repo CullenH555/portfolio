@@ -1,6 +1,8 @@
 # portfolio
 
-Hi, I'm Cullen Hallinan. I am a web developer looking for an entry level position. 
+Hi, I'm Cullen Hallinan. 
+
+I am a web developer looking for an entry level position. 
 I enjoy leveraging frameworks and packages for flexibility, efficiency, and clean design.
 
 
