@@ -8,11 +8,13 @@ Included are some of my personal projects:
 
 
 AoS Playmat Builder (Native JS)
+
   I started with AoS Playmat Builder in HTML, CSS, PHP, and JavaScript. 
   I hosted it on Heroku and used a postgreSQL database.
 
 
 Nartwhal
+
   I learned about JS frameworks and practised React by building Nartwhal, 
   an application for connecting people with art exhibits in their area.
   I worked with a design student who provided wireframes in order to get 
@@ -21,12 +23,14 @@ Nartwhal
 
 
 FlaskSpellChecker
+
   For extra credit in a Python class I took, I hosted a spell check application 
   I made using Flask and AWS. It is currently under maintenance and planned improvement.
   
   
 To be added:
 AoS Playmat Builder (Flutter)
+
   In a summer internship with easy-donate I learned Flutter and clean architecture. 
   To practice, I rebuilt AoS Playmat Builder from scratch. 
   I did so taking into account user testing from the original implementation. 
