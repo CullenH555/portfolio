@@ -9,10 +9,17 @@ I enjoy leveraging frameworks and packages for flexibility, efficiency, and clea
 Included are some of my personal projects:
 
 
-AoS Playmat Builder (Native JS)
+AoS Playmat Builder Web (Native JS)
 
-  I started with AoS Playmat Builder in HTML, CSS, PHP, and JavaScript. 
+  I started my web development with AoS Playmat Builder in HTML, CSS, PHP, and JavaScript. 
   I hosted it on Heroku and used a postgreSQL database.
+  
+AoS Playmat Builder Cross-platform (Flutter)
+
+  Most recently I improved AoS Playmat Builder with Flutter, Firebase, and Android Studio.
+  I improved the UI based on user testing. I rebuilt the entire application using 
+  object-oriented Flutter and clean architecture principles. I used Python to convert and
+  improve data from the original project.
 
 
 Nartwhal
@@ -30,7 +37,7 @@ FlaskSpellChecker
   I made using Flask and AWS. It is currently under maintenance and planned improvement.
   
   
-To be added:
+Recently added:
 AoS Playmat Builder (Flutter)
 
   In a summer internship with easy-donate I learned Flutter and clean architecture. 
