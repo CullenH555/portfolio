@@ -8,35 +8,43 @@
   <body>
     <h1 id="pageTopBanner">Projects</h1>
     <div class="projectContainer">
-      <h2>AoS Playmat Builder</h2>
+      <h2>AoS Playmat Builder JavaScript Web</h2>
       <a href="https://aos-playmat.herokuapp.com" alt="AoSPlaymat">AoS Playmat Builder</a>
-      <p>A web application for helping new players learn the popular tabletop game.<br>Technologies:  JavaScript, PHP, CSS, PostgreSQL, Heroku hosting. <a href=#aosPlaymatDetails>Images and Details</a></p>
+      <p>A web application for helping new players learn the popular tabletop game.<br>Technologies:  JavaScript, PHP, CSS, PostgreSQL, Atom, Heroku hosting. <a href=#aosPlaymatDetails>Images and Details</a></p>
+    </div>
+    <div class="projectContainer">
+      <h2>AoS Playmat Builder Flutter Cross-platform</h2>
+      <p class="subtitle">Current work in progress</p>
+      <p>An improved version in Flutter. Based on user testing.<br>Technologies:  Flutter, Firebase, Android Studio, Github. <a href=#aosPlaymatFlutterDetails>Images and Details</a></p>
     </div>
     <div class="projectContainer">
       <h2>Nartwhal</h2>
-      <p class="underlinedSubtitle">Coming soon on Nartwhal.com</p>
-      <p>A web application for connecting art lovers with exhibitions based on their preferences.<br>Technologies:  React, CSS, PostgreSQL, Express, Node.js. <a href=#nartwhalDetails>Images and Details</a></p>
+      <p class="subtitle">Coming soon on Nartwhal.com</p>
+      <p>A web application for connecting art lovers with exhibitions based on their preferences.<br>Technologies:  React, CSS, PostgreSQL, Express, Node.js, Atom. <a href=#nartwhalDetails>Images and Details</a></p>
     </div>
     <div class="projectContainer">
       <h2>FlaskSpellChecker</h2>
-      <p class="underlinedSubtitle">Currently under maintenance</p>
-      <p>A web application built for a Python class to spell check. <br>Technologies:  Python, Flask, CSS, AWS hosting.</p>
+      <p class="subtitle">Currently under maintenance</p>
+      <p>A web application built for a Python class to spell check. <br>Technologies:  Python, Flask, CSS, VSCode, AWS hosting.</p>
     </div>
     <div id="aosPlaymatDetails">
       <div class="detailsBorderContainer">
         <div class="detailsBorder"></div>
       </div>
-      <h2>AoS Playmat Builder</h2>
+      <h2>AoS Playmat Builder JavaScript Web</h2>
       <div class="buttonsContainer">
         <div class="buttonContainer">
             <button onClick="nextEvent('previous', 1)">Previous</button>
+        </div>
+        <div class="backToTop">
+          <a href=#pageTopBanner>Back To Top</a>
         </div>
         <div class="buttonContainer">
             <button onClick="nextEvent('next', 1)">Next</button>
         </div>
       </div>
       <div id="builderPage" class="show">
-        <p>AoS has a welcome page which gives the user the option to log in or to get started right away. Logging in gives access to saving up to 3 projects. The main functionality is in the "builder page" and "playmat page"</p>
+        <p>AoS Web has a welcome page which gives the user the option to log in or to get started right away. Logging in gives access to saving up to 3 projects. The main functionality is in the "builder page" and "playmat page"</p>
         <h3>Builder Page</h3>
         <div class="doubleImg">
             <img src="images/AoSPlaymat/aosBuilderPageSelections.png" alt="Builder Page Selections">
@@ -66,6 +74,50 @@
         <p>Error handling for cases where users might try to save over a project or access an empty save, and alert dialogue for deletion confirmation etc.</p>  
       </div>
     </div>
+    <div id="aosPlaymatFlutterDetails">
+      <div class="detailsBorderContainer">
+        <div class="detailsBorder"></div>
+      </div>
+      <h2>AoS Playmat Builder Flutter Cross-platform</h2>
+      <div class="buttonsContainer">
+        <div class="buttonContainer">
+            <button onClick="nextEvent('previous', 2)">Previous</button>
+        </div>
+        <div class="backToTop">
+          <a href=#pageTopBanner>Back To Top</a>
+        </div>
+        <div class="buttonContainer">
+            <button onClick="nextEvent('next', 2)">Next</button>
+        </div>
+      </div>
+      <div id="welcomePages" class="show">
+        <p>AoS Flutter has a welcome page which gives the user the option to log in or register as a new user. The main functionality is in the "selection pages" and "display page"</p>
+        <h3>Welcome, Login, and Register Pages</h3>
+        <div class="doubleImg">
+            <img class="widthAuto" src="images/AoSFlutter/WelcomePage.jpeg" alt="Welcome Page">
+            <img class="widthAuto" src="images/AoSFlutter/WelcomePage.jpeg" alt="Login Page">
+            <img class="widthAuto" src="images/AoSFlutter/RegisterPage.jpeg" alt="Register Page">
+        </div>
+        <p>Users can register and log in. One saved project per user.</p>  
+      </div>
+      <div id="selectionPages" hidden>
+        <h3>Selection Pages</h3>
+        <div class="doubleImg">
+            <img class="widthAuto" src="images/AoSFlutter/SelectionPage.jpeg" alt="Selection Page">
+            <img class="widthAuto" src="images/AoSFlutter/selectionPage2.jpeg" alt="Selection Page 2">
+        </div>
+        <p>Each category of choices is represented by a selection page. The user can select and deselect by tapping an option. These are dynamically populated based on choices and logically ordered in terms of the game. Navigation is provided at the bottom to make changes in different categories.</p>
+      </div>
+      <div id="displayPage" hidden>
+        <h3>Display Page</h3>
+        <div class="doubleImg">
+            <img class="widthAuto" src="images/AoSFlutter/DisplayPage.jpeg" alt="Display Page">
+            <img class="widthAuto" src="images/AoSFlutter/ResetPage.jpeg" alt="Reset Page">
+        </div>
+        <p>Displays a list of rules based on user selections. Rules are listed in game phase order to assist players. Navigating back gives the user the option to reset. </p>
+      </div>
+      </div>
+    </div>
     <div id="nartwhalDetails">
         <div class="detailsBorderContainer">
           <div class="detailsBorder"></div>
@@ -73,10 +125,13 @@
         <h2>Nartwhal</h2>
         <div class="buttonsContainer">
           <div class="buttonContainer">
-              <button onClick="nextEvent('previous', 2)">Previous</button>
+              <button onClick="nextEvent('previous', 3)">Previous</button>
+          </div>
+          <div class="backToTop">
+            <a href=#pageTopBanner>Back To Top</a>
           </div>
           <div class="buttonContainer">
-              <button onClick="nextEvent('next', 2)">Next</button>
+              <button onClick="nextEvent('next', 3)">Next</button>
           </div>
         </div>
         <div id="welcomePage" class="show">
