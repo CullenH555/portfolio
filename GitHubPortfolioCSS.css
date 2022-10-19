@@ -73,8 +73,7 @@
       color: #B0BEC5;
   }
 
-  .underlinedSubtitle {
-    text-decoration: underline;
+  .subtitle {
     color: saddlebrown;
   }
   
@@ -102,4 +101,8 @@
 
   .widthAuto {
     width: auto;
+  }
+
+  .backToTop {
+    padding-top: 1em;
   }
