@@ -1,7 +1,8 @@
 
 
 var order1 = ['builderPage', 'playmatPage', 'userPage', 'errorsPage'];
-var order2 = ['welcomePage', 'explorePage', 'preferencesPage', 'settingsPage', 'historyPage'];
+var order2 = ['welcomePages', 'selectionPages', 'displayPage'];
+var order3 = ['welcomePage', 'explorePage', 'preferencesPage', 'settingsPage', 'historyPage'];
 
 function nextEvent(direction, projectNumber) {
     if (projectNumber == 1) {
@@ -11,6 +12,10 @@ function nextEvent(direction, projectNumber) {
     else if (projectNumber == 2) {
         var order = order2;
         var hideElement = document.getElementsByClassName('show')[1];
+    }
+    else if (projectNumber == 3) {
+        var order = order3;
+        var hideElement = document.getElementsByClassName('show')[2];
     }
     var elementId = hideElement.getAttribute('id');
     hideElement.removeAttribute('class');
