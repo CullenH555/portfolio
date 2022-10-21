@@ -13,23 +13,27 @@
         width: fit-content;
       }
   }
-
+/* #333a30
+   #3e4939
+   #eee9e9
+   #8b7765
+     */
   body {
       width: 100%;
       margin: 0;
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: white;
-      background-color: #263238;
+      color: black;
+      background-color: #eae6e3;
       letter-spacing: 1px;
   }
   
   h1 {
-      
+      color: #eae6e3;
   }
   
   h2 {
-      color: white;
+      color: black;
       margin: 2em 2em 1em 2em;
   }
   
@@ -38,7 +42,8 @@
   }
   
   a {
-      color: saddlebrown;
+      color: #b37d28;
+      font-weight: bold;
   }
   
   img {
@@ -48,7 +53,7 @@
   }
   
   p {
-      color: #B0BEC5;
+      color: black;
       line-height: 2;
       margin: 2em 2em 1em 2em;
   }
@@ -61,7 +66,7 @@
   }
   
   #pageTopBanner {
-      background-color: saddlebrown;
+      background-color: #333a30;
       height: 2em;
       display: flex;
       justify-content: center;
@@ -70,11 +75,11 @@
   }
   
   .projectContainer {
-      color: #B0BEC5;
+      color: black;
   }
 
   .subtitle {
-    color: saddlebrown;
+    color: #3e4739;
   }
   
   .detailsBorderContainer {
